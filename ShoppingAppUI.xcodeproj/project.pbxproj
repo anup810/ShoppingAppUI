@@ -11,6 +11,8 @@
 		4A42EACF2C610D2300D520F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A42EACE2C610D2300D520F0 /* ContentView.swift */; };
 		4A42EAD12C610D2400D520F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A42EAD02C610D2400D520F0 /* Assets.xcassets */; };
 		4A42EAD42C610D2400D520F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A42EAD32C610D2400D520F0 /* Preview Assets.xcassets */; };
+		4A42EADB2C610E7F00D520F0 /* OnBoardingScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A42EADA2C610E7F00D520F0 /* OnBoardingScreenView.swift */; };
+		4A42EADE2C610EB100D520F0 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A42EADD2C610EB100D520F0 /* HomeScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		4A42EACE2C610D2300D520F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4A42EAD02C610D2400D520F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A42EAD32C610D2400D520F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4A42EADA2C610E7F00D520F0 /* OnBoardingScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingScreenView.swift; sourceTree = "<group>"; };
+		4A42EADD2C610EB100D520F0 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +55,12 @@
 		4A42EACB2C610D2300D520F0 /* ShoppingAppUI */ = {
 			isa = PBXGroup;
 			children = (
+				4A42EADC2C610E9600D520F0 /* HomeScreenViews */,
 				4A42EACC2C610D2300D520F0 /* ShoppingAppUIApp.swift */,
 				4A42EACE2C610D2300D520F0 /* ContentView.swift */,
-				4A42EAD02C610D2400D520F0 /* Assets.xcassets */,
+				4A42EADA2C610E7F00D520F0 /* OnBoardingScreenView.swift */,
 				4A42EAD22C610D2400D520F0 /* Preview Content */,
+				4A42EAD02C610D2400D520F0 /* Assets.xcassets */,
 			);
 			path = ShoppingAppUI;
 			sourceTree = "<group>";
@@ -65,6 +71,14 @@
 				4A42EAD32C610D2400D520F0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4A42EADC2C610E9600D520F0 /* HomeScreenViews */ = {
+			isa = PBXGroup;
+			children = (
+				4A42EADD2C610EB100D520F0 /* HomeScreen.swift */,
+			);
+			path = HomeScreenViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +151,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A42EADE2C610EB100D520F0 /* HomeScreen.swift in Sources */,
+				4A42EADB2C610E7F00D520F0 /* OnBoardingScreenView.swift in Sources */,
 				4A42EACF2C610D2300D520F0 /* ContentView.swift in Sources */,
 				4A42EACD2C610D2300D520F0 /* ShoppingAppUIApp.swift in Sources */,
 			);
