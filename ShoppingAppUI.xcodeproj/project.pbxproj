@@ -13,6 +13,11 @@
 		4A42EAD42C610D2400D520F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A42EAD32C610D2400D520F0 /* Preview Assets.xcassets */; };
 		4A42EADB2C610E7F00D520F0 /* OnBoardingScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A42EADA2C610E7F00D520F0 /* OnBoardingScreenView.swift */; };
 		4A42EADE2C610EB100D520F0 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A42EADD2C610EB100D520F0 /* HomeScreen.swift */; };
+		4A42EAE12C61190800D520F0 /* ImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A42EAE02C61190800D520F0 /* ImageData.swift */; };
+		4A42EAE32C61191700D520F0 /* NearYouData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A42EAE22C61191700D520F0 /* NearYouData.swift */; };
+		4A42EAE52C61255400D520F0 /* FruitCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A42EAE42C61255400D520F0 /* FruitCardView.swift */; };
+		4A42EAE72C61294000D520F0 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A42EAE62C61294000D520F0 /* DetailsView.swift */; };
+		4A42EAE92C61297300D520F0 /* TopSellingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A42EAE82C61297300D520F0 /* TopSellingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +28,11 @@
 		4A42EAD32C610D2400D520F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4A42EADA2C610E7F00D520F0 /* OnBoardingScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingScreenView.swift; sourceTree = "<group>"; };
 		4A42EADD2C610EB100D520F0 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		4A42EAE02C61190800D520F0 /* ImageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageData.swift; sourceTree = "<group>"; };
+		4A42EAE22C61191700D520F0 /* NearYouData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearYouData.swift; sourceTree = "<group>"; };
+		4A42EAE42C61255400D520F0 /* FruitCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitCardView.swift; sourceTree = "<group>"; };
+		4A42EAE62C61294000D520F0 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		4A42EAE82C61297300D520F0 /* TopSellingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopSellingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +65,7 @@
 		4A42EACB2C610D2300D520F0 /* ShoppingAppUI */ = {
 			isa = PBXGroup;
 			children = (
+				4A42EADF2C6118F400D520F0 /* Model */,
 				4A42EADC2C610E9600D520F0 /* HomeScreenViews */,
 				4A42EACC2C610D2300D520F0 /* ShoppingAppUIApp.swift */,
 				4A42EACE2C610D2300D520F0 /* ContentView.swift */,
@@ -77,8 +88,20 @@
 			isa = PBXGroup;
 			children = (
 				4A42EADD2C610EB100D520F0 /* HomeScreen.swift */,
+				4A42EAE42C61255400D520F0 /* FruitCardView.swift */,
+				4A42EAE62C61294000D520F0 /* DetailsView.swift */,
+				4A42EAE82C61297300D520F0 /* TopSellingView.swift */,
 			);
 			path = HomeScreenViews;
+			sourceTree = "<group>";
+		};
+		4A42EADF2C6118F400D520F0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4A42EAE02C61190800D520F0 /* ImageData.swift */,
+				4A42EAE22C61191700D520F0 /* NearYouData.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,8 +175,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A42EADE2C610EB100D520F0 /* HomeScreen.swift in Sources */,
+				4A42EAE32C61191700D520F0 /* NearYouData.swift in Sources */,
+				4A42EAE92C61297300D520F0 /* TopSellingView.swift in Sources */,
 				4A42EADB2C610E7F00D520F0 /* OnBoardingScreenView.swift in Sources */,
 				4A42EACF2C610D2300D520F0 /* ContentView.swift in Sources */,
+				4A42EAE52C61255400D520F0 /* FruitCardView.swift in Sources */,
+				4A42EAE72C61294000D520F0 /* DetailsView.swift in Sources */,
+				4A42EAE12C61190800D520F0 /* ImageData.swift in Sources */,
 				4A42EACD2C610D2300D520F0 /* ShoppingAppUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
