@@ -17,7 +17,7 @@ struct OnBoardingScreenView: View {
                         
                         Image("img")
                             .resizable()
-                            .aspectRatio(contentMode: .fit)
+                            .aspectRatio(contentMode: .fill)
                             .padding()
                             .frame(width: geo.size.width , height: geo.size.height)
                     }
