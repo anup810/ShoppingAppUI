@@ -35,7 +35,7 @@ struct TopSellingView: View {
         ScrollView(.horizontal) {
             HStack(alignment:.center,spacing: 20){
                 ForEach(images, id: \.id){image in
-                    NavigationLink(destination: DetailsView()) {
+                    NavigationLink(destination: DetailsView(fruit:image.title)) {
                         FruitCardView(fruits: image)
                         
                     }
